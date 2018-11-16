@@ -3,11 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
+	<dict/>
+	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DemoCI.xcscheme_^#shared#^_</key>
+		<key>A4FDB1FC219EEF5D0071B820</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4FDB214219EEF690071B820</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4FDB21F219EEF690071B820</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

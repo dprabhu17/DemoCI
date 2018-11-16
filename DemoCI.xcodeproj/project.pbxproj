@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A5684AF6674B38BB128C9DC /* libPods-DemoCIUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6905342B6F8C83F82CB33660 /* libPods-DemoCIUITests.a */; };
+		662C8D815CB142A8EC598358 /* libPods-DemoCI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DB716B8B9E1BC8B82B2DAC /* libPods-DemoCI.a */; };
 		A4FDB202219EEF5D0071B820 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDB201219EEF5D0071B820 /* AppDelegate.m */; };
 		A4FDB205219EEF5D0071B820 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDB204219EEF5D0071B820 /* ViewController.m */; };
 		A4FDB208219EEF5D0071B820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FDB206219EEF5D0071B820 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		A4FDB210219EEF680071B820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDB20F219EEF680071B820 /* main.m */; };
 		A4FDB21A219EEF690071B820 /* DemoCITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDB219219EEF690071B820 /* DemoCITests.m */; };
 		A4FDB225219EEF690071B820 /* DemoCIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDB224219EEF690071B820 /* DemoCIUITests.m */; };
+		AB1651FA4A31F89589C4957F /* libPods-DemoCITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD77AE7CAD29069CFCF731 /* libPods-DemoCITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E05CFC61FAD3A2460DBA696 /* Pods-DemoCIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCIUITests/Pods-DemoCIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6905342B6F8C83F82CB33660 /* libPods-DemoCIUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoCIUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0DF45C2A5CEEF3446D1BCC /* Pods-DemoCIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCIUITests/Pods-DemoCIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73DB716B8B9E1BC8B82B2DAC /* libPods-DemoCI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoCI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9179580D6BE4451A9C878E /* Pods-DemoCITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCITests/Pods-DemoCITests.release.xcconfig"; sourceTree = "<group>"; };
 		A4FDB1FD219EEF5D0071B820 /* DemoCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FDB200219EEF5D0071B820 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4FDB201219EEF5D0071B820 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		A4FDB220219EEF690071B820 /* DemoCIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoCIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FDB224219EEF690071B820 /* DemoCIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoCIUITests.m; sourceTree = "<group>"; };
 		A4FDB226219EEF690071B820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83C1F3FE59516C001749905 /* Pods-DemoCI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCI/Pods-DemoCI.debug.xcconfig"; sourceTree = "<group>"; };
+		D9B593F654190B0AB1891240 /* Pods-DemoCI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCI.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCI/Pods-DemoCI.release.xcconfig"; sourceTree = "<group>"; };
+		EE87988BFE8B46DD3E7F1CC2 /* Pods-DemoCITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCITests/Pods-DemoCITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFFD77AE7CAD29069CFCF731 /* libPods-DemoCITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoCITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662C8D815CB142A8EC598358 /* libPods-DemoCI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1651FA4A31F89589C4957F /* libPods-DemoCITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5684AF6674B38BB128C9DC /* libPods-DemoCIUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		990BA2628AC4F5CDAEEABCAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73DB716B8B9E1BC8B82B2DAC /* libPods-DemoCI.a */,
+				EFFD77AE7CAD29069CFCF731 /* libPods-DemoCITests.a */,
+				6905342B6F8C83F82CB33660 /* libPods-DemoCIUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A4FDB1F4219EEF5C0071B820 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				A4FDB218219EEF690071B820 /* DemoCITests */,
 				A4FDB223219EEF690071B820 /* DemoCIUITests */,
 				A4FDB1FE219EEF5D0071B820 /* Products */,
+				DC3BB5195A25E57D07469AC0 /* Pods */,
+				990BA2628AC4F5CDAEEABCAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +159,19 @@
 			path = DemoCIUITests;
 			sourceTree = "<group>";
 		};
+		DC3BB5195A25E57D07469AC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D83C1F3FE59516C001749905 /* Pods-DemoCI.debug.xcconfig */,
+				D9B593F654190B0AB1891240 /* Pods-DemoCI.release.xcconfig */,
+				EE87988BFE8B46DD3E7F1CC2 /* Pods-DemoCITests.debug.xcconfig */,
+				8D9179580D6BE4451A9C878E /* Pods-DemoCITests.release.xcconfig */,
+				3E05CFC61FAD3A2460DBA696 /* Pods-DemoCIUITests.debug.xcconfig */,
+				6F0DF45C2A5CEEF3446D1BCC /* Pods-DemoCIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4FDB229219EEF690071B820 /* Build configuration list for PBXNativeTarget "DemoCI" */;
 			buildPhases = (
+				87778783088A3A14319A553F /* [CP] Check Pods Manifest.lock */,
 				A4FDB1F9219EEF5D0071B820 /* Sources */,
 				A4FDB1FA219EEF5D0071B820 /* Frameworks */,
 				A4FDB1FB219EEF5D0071B820 /* Resources */,
+				A4FDB232219EF2560071B820 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -156,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4FDB22C219EEF690071B820 /* Build configuration list for PBXNativeTarget "DemoCITests" */;
 			buildPhases = (
+				2CB74FD54BA1C64F66243684 /* [CP] Check Pods Manifest.lock */,
 				A4FDB211219EEF690071B820 /* Sources */,
 				A4FDB212219EEF690071B820 /* Frameworks */,
 				A4FDB213219EEF690071B820 /* Resources */,
@@ -174,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4FDB22F219EEF690071B820 /* Build configuration list for PBXNativeTarget "DemoCIUITests" */;
 			buildPhases = (
+				95DCD28D8C806616736AFF91 /* [CP] Check Pods Manifest.lock */,
 				A4FDB21C219EEF690071B820 /* Sources */,
 				A4FDB21D219EEF690071B820 /* Frameworks */,
 				A4FDB21E219EEF690071B820 /* Resources */,
@@ -256,6 +300,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CB74FD54BA1C64F66243684 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoCITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87778783088A3A14319A553F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoCI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95DCD28D8C806616736AFF91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoCIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4FDB232219EF2560071B820 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\n# This script loops through the frameworks embedded in the application and\n# removes unused architectures.\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A4FDB1F9219EEF5D0071B820 /* Sources */ = {
@@ -433,40 +563,60 @@
 		};
 		A4FDB22A219EEF690071B820 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D83C1F3FE59516C001749905 /* Pods-DemoCI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 6U6D63WXPD;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DemoCI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.DemoCI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Demo-CI-Dev";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		A4FDB22B219EEF690071B820 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B593F654190B0AB1891240 /* Pods-DemoCI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 6U6D63WXPD;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DemoCI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.DemoCI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Demo-CI-AppStore";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		A4FDB22D219EEF690071B820 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE87988BFE8B46DD3E7F1CC2 /* Pods-DemoCITests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +636,7 @@
 		};
 		A4FDB22E219EEF690071B820 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D9179580D6BE4451A9C878E /* Pods-DemoCITests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +656,7 @@
 		};
 		A4FDB230219EEF690071B820 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E05CFC61FAD3A2460DBA696 /* Pods-DemoCIUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6U6D63WXPD;
@@ -523,6 +675,7 @@
 		};
 		A4FDB231219EEF690071B820 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0DF45C2A5CEEF3446D1BCC /* Pods-DemoCIUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6U6D63WXPD;

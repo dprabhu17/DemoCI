@@ -1,0 +1,6 @@
+module Pods_DemoCI {
+  umbrella header "Pods-DemoCI-umbrella.h"
+
+  export *
+  module * { export * }
+}
